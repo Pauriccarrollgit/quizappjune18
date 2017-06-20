@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/machine"
+            android:background="#003f5a"
+           />
+
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Machine  Learning App"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. Machine learning focuses on the development of computer programs that can change when exposed to new data. The process of machine learning is similar to that of data mining."
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Question 1"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="ML will take care of everything, right? We can all stop working and wait for our robot servants to look after us? We just have to be careful of skynet"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:textSize="15sp"
+            android:orientation="vertical"
+            android:textColor="#ffffff">
+
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="False"
+                android:textSize="15sp"
+                android:textColor="#ffffff" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005275"
+            android:gravity="center"
+            android:onClick="submitOrder"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+
+
+            />
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Question 2"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Which of the below best describe unsupervised machine learning?"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:orientation="vertical"
+            android:textColor="#ffffff"
+            android:textSize="15sp">
+
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:text="where you have a teacher to guide you and learn concepts, such that when a new sample comes your way that you have not seen before, you may still be able to identify it."
+                android:textColor="#ffffff" />
+
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:textSize="15sp"
+                android:text="where you have lots of information but you did not know what to do with it initially. A major distinction is that, there is no teacher to guide you and you have to find a way out on your own."
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="#ffffff" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005275"
+            android:gravity="center"
+            android:onClick="submitOrder"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+
+
+            />
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Question 3"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:text="Google's artificially intelligent Go-playing computer system has defeated Korean grandmaster. What was the name of that player?
+"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/album_description_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="#015b75"
+            android:hint="Hint here"
+            android:inputType="textMultiLine"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005275"
+            android:gravity="center"
+            android:onClick="submitOrder"
+            android:padding="8dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+
+
+            />
+
+
+        <TextView
+
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Question 4"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015b75"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:text="Which of the following are types of machine learning? Check all that apply."
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supervised Learning"
+            android:background="#003f5a"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Unsupervised Learning"
+            android:background="#003f5a"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semi-Supervised Learning"
+            android:background="#003f5a"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reward Punishment Learning"
+            android:background="#003f5a"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <CheckBox
+            android:id="@+id/notify_me_checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reinforcement Learning"
+            android:background="#003f5a"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#005275"
+            android:gravity="center"
+            android:onClick="submitOrder"
+            android:padding="10dp"
+            android:text="Submit"
+            android:textColor="#ffffff"
+
+            />
+
+        <Button
+            android:id="@+id/final_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003f5a"
+            android:gravity="center"
+            android:onClick="submitResultsPage"
+            android:padding="10dp"
+            android:text="FINAL SCORE"
+            android:textColor="#ffffff"
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>
+
